@@ -29,4 +29,3 @@ Changes reflect in both DCC Plugin and PyQt6 UI dynamically.
 
 **Conclusion:**
 This project successfully demonstrates the integration of FastAPI, SQLite, and PyQt6 for inventory management. The system provides real-time updates, smooth interaction, and efficient API communication. Future improvements could include user authentication, cloud database support, and data visualization.
-
