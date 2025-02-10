@@ -9,15 +9,15 @@ The system follows a four-layer architecture:
   PyQt6 GUI – Provides a user-friendly interface for interacting with inventory data.
 
 **Implementation Details :**
-Backend (FastAPI & SQLite)
+Backend (FastAPI & SQLite):
   Created API endpoints for CRUD operations on inventory.
   Integrated SQLite database using SQLAlchemy ORM.
   Implemented Pydantic models for data validation.
-Frontend (PyQt6 UI)
+Frontend (PyQt6 UI):
   Built a responsive GUI that fetches and displays inventory data.
   Implemented multi-threading (QThread) to prevent UI blocking.
   Used requests library to communicate with the backend.
-DCC Integration
+DCC Integration:
    The DCC tool communicates with our API to fetch and modify inventory data.
   Ensured seamless updates between the DCC plugin and the inventory system.
 
